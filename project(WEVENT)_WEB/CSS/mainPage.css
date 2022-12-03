@@ -1,0 +1,162 @@
+.body {
+    margin: 0;
+    padding: 0;
+    background-color: #d2d2d2;
+}
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+header {
+    min-height: 80px;
+    padding: 10px 20px 0;
+}
+header a.logo {
+    float: left;
+    margin-top: 8px;
+}
+header a.logo img {
+    width: 50%;
+}
+header ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 8px;
+}
+header ul li {
+    display: inline-block;
+    /*margin: 15px;*/
+}
+header ul li a {
+    text-decoration: none;
+    color: #3d3d3d;
+    padding: 0 5px;
+    margin: 0 10px;
+    width: 100px;
+}
+header ul li a:hover {
+    padding-bottom: 8px;
+    border-bottom: 3px solid #ff4e00;
+    color: #ff4e00;
+}
+.login {
+    float: right;
+}
+.local_select {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.card {
+    height: 400px;
+    width: 350px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: hidden;
+}
+.card-header {
+    -webkit-transition: 0.5s; /*사파리 & 크롬*/
+    transition: 0.5s;
+    width: 100%;
+    height: 270px;
+    border-radius: 15px 15px 0 0;
+    background-image: url("../image/bada.jpeg");
+    background-size: 100% 280px;
+    background-repeat: no-repeat;
+}
+.card:hover .card-header  {
+    opacity: 0.8;
+    height: 100px;
+}
+.card-header-is_closed{
+    background-color: #EF5A31 ;
+    color: #FFF ;
+    font-weight: bold ;
+    text-align: center ;
+    float: right;
+    margin: 15px 15px 0 0;
+    border-radius: 50%;
+    font-weight: bold;
+    padding: 10px 10px;
+    line-height: 20px;
+}
+h1 {
+    font-size: 22px;
+    font-weight: bold;
+}
+.card-body {
+
+}
+.card-body-header{
+    line-height: 25px;
+    margin: 10px 20px 0px 20px;
+}
+.card-body-description  {
+    opacity: 0;
+    color: #757B82;
+    line-height: 25px;
+    -webkit-transition: .2s ease-in-out; /*사파리&크롬*/
+    transition : .2s ease-in-out;
+    overflow: hidden;
+    height: 180px;
+    margin: 5px 20px;
+}
+.card:hover .card-body-description {
+    opacity: 1;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -ms-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition : .5s ease-in-out;
+    overflow: scroll;
+}
+.card-body-hashtag {
+    color: #2478FF;
+    font-style: italic;
+}
+.card-body-footer {
+    position: absolute;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    bottom: 0;
+    width: 314px;
+    font-size: 14px;
+    color: #9FA5A8;
+    padding: 0 15px;
+}
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+.icon-view_count {
+    width: 25px;
+    height: 17px;
+    background: url("../image/bada.jpeg") no-repeat;
+}
+.icon-comments_count {
+    margin-left: 5px;
+    width: 25px;
+    height: 17px;
+    background: url("../image/bada.jpeg") no-repeat;
+}
+.reg_date {
+    float: right;
+}
